@@ -1,0 +1,67 @@
+form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .form-field {
+    margin-bottom: 10px;
+  }
+  
+  .form-field label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-field input[type="text"],
+  .form-field input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-actions button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .form-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .form-options a.social-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  
+  .form-options a.social-icon.facebook {
+    background-image: url('path/to/facebook-icon.png');
+  }
+  
+  .form-options a.social-icon.twitter {
+    background-image: url('path/to/twitter-icon.png');
+  }
+  
+  .form-options a.social-icon.google {
+    background-image: url('path/to/google-icon.png');
+  }
